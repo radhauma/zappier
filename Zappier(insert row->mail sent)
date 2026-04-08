@@ -1,0 +1,48 @@
+Go to zapier.com and create a free account
+Click Create Zap
+Set trigger: Google Sheets → "New or updated row"
+Set action: Gmail → "Send email"
+Zapier automatically reads your sheet and sends the report email
+
+
+step 1:
+------
+Create  a free zapier account
+Create a zap
+->Trigger
+Choose a trigger app
+Google Sheets
+Google Sheets ← select this
+↓
+Choose a trigger event
+New or Updated Spreadsheet Row
+New or Updated Spreadsheet Row ← select this
+
+->Step 4 — Set up the Action (Gmail)
+The action is what happens after the trigger. We want it to send an email via Gmail.
+
+Choose an action app
+Gmail
+Gmail ← select this
+↓
+Choose an action event
+Send Email ← select this
+Create Draft
+
+connect gmail account
+
+
+Step 5 — Write your email report
+Now fill in the email details. Zapier lets you insert data from your sheet directly into the email.
+
+Set up the email fields
+To (recipient email)
+you@gmail.com
+Subject
+Daily Sales Report
+Body (email content)
+Hi,
+Here is the latest sales report.
+
+Name: [Sheet Name] Sales: [Sheet Sales]
+Blue tags = data pulled from your sheet automatically
