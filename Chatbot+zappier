@@ -1,0 +1,27 @@
+Part A — Chatbase (chatbot that answers questions)
+Go back to your Chatbase tab and do this:
+
+Click Knowledge in the left menu
+Click + Add source
+Select File → upload your Excel/CSV sales file
+Chatbase will read all your sales data
+Now go to the chatbot preview on the right and type: "What is the total sales?" — it will answer from your data!
+
+
+
+_______________________________________________
+Go to zapier.com and create a new Zap:
+
+Trigger → search Zapier Chatbots → select Chatbot Conversation Completed
+Action → search Gmail → select Send Email
+Fill in your email address in the "To" field
+In the Body field, click + and select the chatbot conversation data
+Click Publish
+
+
+Step 3 — Connect the Zap back to Chatbase
+
+After publishing the Zap in Zapier, copy the Zap ID or link
+Come back to Chatbase → Logic → Run Zap
+Paste the Zap ID there
+Click Save
